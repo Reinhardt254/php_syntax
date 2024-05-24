@@ -5,13 +5,26 @@
 //    echo "Today gonna be fun friends";
 // }
 
-//shorthand
+#shorthand
 
-$x = 20;
-$y = 110;
+// $x = 20;
+// $y = 110;
 
-$z = $x > $y ? "X is greater than Y" : "X is less than Y";
+// $z = $x > $y ? "X is greater than Y" : "X is less than Y";
 
-echo $z;
+// echo $z;
 
-//php conditions.php
+#Nested if
+
+$a = 13;
+
+if($a > 10){
+   echo "Above 10";
+   if($a > 20){
+      echo "And also above 20";
+   }else{
+      echo "but not above 20";
+   }
+}
+
+#php conditions.php
